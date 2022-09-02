@@ -1,0 +1,140 @@
+:root {
+	--dark-bg-color: #1F2937;
+	--primary-text-color: #F9FAF8;
+	--secondary-text-color: #E5E7EB;
+	--hero-main-text-size: 48px;
+	--button-color: #3882F6;
+}
+
+header {
+	background-color: var(--dark-bg-color);
+	padding: 0 8rem;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	color: var(--primary-text-color);
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+nav ul li {
+	padding: 1rem;
+	align-items: flex-end;
+}
+
+.hero-container {
+	background-color: var(--dark-bg-color);
+	padding: 6rem 8rem 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.hero-text h1 {
+	font-size: var(--hero-main-text-size);
+	color: var(--primary-text-color);
+	font-weight: 900;
+	margin-bottom: -0.5rem;
+	max-width: 20rem;
+}
+
+.hero-text p {
+	color: var(--primary-text-color);
+	opacity: 0.3;
+}
+
+.hero-text button {
+	padding: 0.8rem 1.5rem;
+	border-radius: 5px;
+	border: none;
+	color: var(--primary-text-color);
+	background-color: var(--button-color);
+	font-weight: 600;
+}
+
+.image-container {
+	text-align: center;
+	margin-top: 3rem;
+	padding-bottom: 5rem;
+}
+
+.image-container h2 {
+	font-size: 36px;
+	font-weight: 900;
+	color: var(--dark-bg-color);
+	margin-bottom: 2.5rem;
+}
+
+.image-with-text-container {
+	padding: 0 12rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 0.5rem;
+}
+
+.image-with-text button {
+	border: 2px solid var(--button-color);
+	border-radius: 5px;
+	height: 12rem;
+	width: 12rem;
+	background-color: white;
+}
+
+.quote {
+	background-color: var(--secondary-text-color);
+	padding: 6rem 12rem;
+}
+
+.quote h2 {
+	font-size: 36px;
+	font-style: italic;
+	color: var(--dark-bg-color)
+}
+
+.quote p {
+	font-weight: 700;
+	float: right;
+	margin-top: -2rem;
+}
+
+.call-to-action {
+	padding: 6rem 8rem;
+}
+
+.call-to-action-banner {
+	background-color: var(--button-color);
+	padding: 2rem 6rem;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.call-to-action-text {
+	color: var(--primary-text-color);
+}
+
+.call-to-action-text h3 {
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+.call-to-action-banner button {
+	padding: 0.8rem 2rem;
+	border-radius: 5px;
+	border: 2px solid var(--primary-text-color);
+	color: var(--primary-text-color);
+	background-color: var(--button-color);
+	font-weight: 600;
+}
+
+footer {
+	text-align: center;
+	background-color: var(--dark-bg-color);
+	padding: 1.5rem 0;
+	color: var(--primary-text-color);
+}
